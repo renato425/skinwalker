@@ -17,5 +17,7 @@ Ao executar o executavel. O mesmo irá:
 # Créditos
 O malware foi feito pelo Renatin
 Discord: **Renatin#2004**
+
 Malware baseado no evento do Bots Para Discord (BPD)
+
 [Discord do BPD](https://discord.gg/U6kTg2t)
