@@ -14,6 +14,10 @@ Ao executar o executavel. O mesmo irá:
 
 **Ao executar o executavel. Eu não sou responsável pelo seus dados perdidos. Muito menos pelo computador.**
 
+# Como executar
+Bom. Para executar é preciso iniciar o arquivo SkinWalker.exe
+Caso a janela do executavel feche inesperadamente. É preciso executar pelo prompt de comando como administrador.
+
 # Créditos
 O malware foi feito pelo Renatin
 
