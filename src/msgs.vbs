@@ -1,0 +1,1 @@
+x=msgbox("SkinWalker esta em seu computador!", 0+48, "CORRA!")

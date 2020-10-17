@@ -1,0 +1,1 @@
+x=msgbox("Doces ou travesuras?", 4+32, "Responda!")

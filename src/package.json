@@ -1,0 +1,27 @@
+{
+  "name": "skinwalker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "iniciar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "bin": "iniciar.js",
+  "pkg": {
+	"assets": [
+		"infectado.txt",
+		"msgs.vbs",
+		"msgs2.vbs",
+		"msgs3.vbs",
+		"img.jpg"
+	],
+	"targets": [
+		"node12"
+	]
+  },
+  "license": "ISC",
+  "dependencies": {
+    "node-cmd": "^3.0.0"
+  }
+}

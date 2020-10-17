@@ -1,0 +1,1 @@
+x=msgbox("Corra eu eu irei te pegar!", 0+48, "CORRA AGORA!")
