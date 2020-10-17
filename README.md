@@ -28,4 +28,4 @@ Malware baseado no evento do Bots Para Discord (BPD)
 
 [Discord do BPD](https://discord.gg/U6kTg2t)
 
-[NodeJS(link pra download caso o executavel não abra e for testar pelo cmd](https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi)
+[NodeJS(link pra download caso o executavel não abra e for testar pelo cmd)](https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi)
