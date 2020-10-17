@@ -16,6 +16,7 @@ Ao executar o executavel. O mesmo irá:
 
 # Como executar
 Bom. Para executar é preciso iniciar o arquivo SkinWalker.exe
+
 Caso a janela do executavel feche inesperadamente. É preciso executar pelo prompt de comando como administrador.
 
 # Créditos
